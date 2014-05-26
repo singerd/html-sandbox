@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Sandbox</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--
+    This loads the jQuery JavaScript library. The two forward slashes here are not a typo.
+    See: http://stackoverflow.com/questions/9646407/two-forward-slashes-in-a-url-src-href-attribute
+    -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!--
+    This loads the "Lightbox" jQuery plugin.  To use this all we need to use
+    is add the "data-lightbox" attribute to an image tag.
+    See: http://lokeshdhakar.com/projects/lightbox2/
+    -->
+    <script src="javascript/lightbox.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="content">
+        <h1>
+          <a href="index.html">HTML Sandbox</a>
+        </h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article id="page" class="content">
+      <h2>Simple Image Gallery</h2>
+      <p>
+      This is an example of a simple image gallery.  You could adapt this for use
+      as a photo portfolio, for example.  Pay attention to how margin, padding, and width
+      interact to procude the "right" spacing.
+      </p>
+      <ul class="gallery">
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-1-800x800.jpg">
+            <img src="img/photos/photo-1-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-2-800x800.jpg">
+            <img src="img/photos/photo-2-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-3-800x800.jpg">
+            <img src="img/photos/photo-3-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-4-800x800.jpg">
+            <img src="img/photos/photo-4-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-5-800x800.jpg">
+            <img src="img/photos/photo-5-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-6-800x800.jpg">
+            <img src="img/photos/photo-6-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-7-800x800.jpg">
+            <img src="img/photos/photo-7-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-8-800x800.jpg">
+            <img src="img/photos/photo-8-200x200.jpg">
+          </a>
+        </li>
+        <li>
+          <a data-lightbox="image-1" href="img/photos/photo-9-800x800.jpg">
+            <img src="img/photos/photo-9-200x200.jpg">
+          </a>
+        </li>
+      </ul>
+    </article>
+    <footer>
+      <div class="content">
+        <p>Hello, world!  What a nice footer.</p>
+      </div>
+    </footer>
+  </body>
+</html>
