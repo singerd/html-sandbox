@@ -1,0 +1,37 @@
+# The .gitignore tells git to ignore certain files and directories so that we
+# don't commit things we didn't intend to commit.  The .gitignore file
+# often includes special "operating system" files that Windows or Mac OS X
+# use to do their job, e.g., image previews, recycling bin information, etc.
+#
+# These files aren't part of our project and we don't want to add them to our
+# project, so we tell git to ignore them in this file.
+
+# GitHub Pages-related files we want to ignore
+_site/
+
+# Mac-specific files to ignore
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS X image thumbnail files
+._*
+
+# Windows-specific files to ignore
+Thumbs.db
+ehthumbs.db
+
+# Windows folder config file
+Desktop.ini
+
+# Windows Recycle Bin files
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Sublime Text-related files
+*.sublime-workspace
