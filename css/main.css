@@ -53,14 +53,18 @@ header nav ul {
 }
 
 header nav > ul li {
+  border-bottom: 3px solid white;
   height: 100%;
   float: left;
+  font-weight: 300;
   list-style-type: none;
   margin-right: 2rem;
+  transition: border-color 200ms ease-in-out;
+  /* See: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions */
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom: 3px solid #0066CC;
+  border-bottom-color: #0066CC;
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
@@ -72,6 +76,7 @@ header nav a, header nav a:visited {
   line-height: 60px;
   text-decoration: none;
   color: #333;
+  transition: color 200ms ease-in-out;
 }
 
 .gallery {
@@ -100,3 +105,8 @@ header nav a, header nav a:visited {
   opacity: 0.5;
 }
 
+.profile-photo {
+}
+
+.profile-content {
+}
